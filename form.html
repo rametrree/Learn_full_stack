@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main>
+      <h1 id="title">Gay population survey</h1>
+      <p id="description">Thank you for taking the time to fill out our questionnaire.</p>
+      <img src="https://media.tenor.com/oO-Zeqd99WcAAAAM/ricardo-milos-dance.gif" alt="--">
+      <form id="survey-form">
+        <label id="name-label" for="name">Name <input id="name" type="text" placeholder="Enter your name" required></label>
+        <label id="email-label" for="name">Email <input id="email" type="email" placeholder="Enter your Email" required></label>
+        <label id="number-label" for="name">Age <input id="number" type="number" min="12" max="100" placeholder="age" required></label>
+        <label for="dropdown">What color do you like?<select id="dropdown">
+          <option value="" disabled selected>Select color</option>
+          <option value="1">Black</option>
+          <option value="2">white</option>
+          <option value="3">yellow</option>
+          <option value="4">purple</option>
+        </select></label>
+        <legend>Do you think you're gay?</legend> 
+        <label><input type="radio" value="1" name=" recommend" class="inline" checked>Definitely</label>
+        <label><input type="radio" value="2" name=" recommend" class="inline">Maybe</label>
+        <label><input type="radio" value="3" name=" recommend" class="inline">Not sure</label>
+        <legend>What are your favorite things? (Choose all that apply)</legend>
+        <label><input type="checkbox" value="1"  class="inline">Dolls</label>
+        <label><input type="checkbox" value="2"  class="inline">motorcycles</label>
+        <label><input type="checkbox" value="3"  class="inline">nurse set toys</label>
+        <label><input type="checkbox" value="4"  class="inline">Ultraman models</label>
+        <label><input type="checkbox" value="5"  class="inline">super hero models</label>
+        <label><input type="checkbox" value="6" class="inline">supper cars</label>
+        <legend>Describe your current feelings?</legend>
+        <textarea id="textarea"></textarea>
+        <input type="submit" id="submit">
+        
+      </form>
+      
+    </main>
+    <div id="message" style="display: none;">
+        Thank you for submitting the form!
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

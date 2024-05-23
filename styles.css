@@ -1,0 +1,84 @@
+body {
+    background-image: url("https://media.tenor.com/U3f2qmk1DbgAAAAM/%E0%B9%83%E0%B8%88%E0%B9%80%E0%B8%81%E0%B9%80%E0%B8%A3.gif");
+  }
+  
+  main {
+    font-family: Tahoma;
+    font-size: 16px;
+    background: linear-gradient(#EBDEF0,#9B59B6,black);
+    max-width: 800px;
+    min-width: 500px;
+    width: 80%;
+    height: 200hv;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+  }
+  
+  img {
+    width: 7em;
+    display: block;
+    margin: 0 Auto;
+  }
+  
+  h1, p {
+    margin: 0.3em auto;
+    text-align: center;
+    color: #424949;
+  }
+  
+  p {
+    margin-bottom: 25px;
+  }
+  
+  form {
+    width: 70vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+  }
+  
+  label {
+    display: block;
+    margin: 0.5rem 0;
+  }
+  
+  input,
+  textarea,
+  select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+    background-color: #EAEDED ;
+    border: 2px solid #A569BD;
+    color: #8E44AD;
+    border-radius: 5px
+  } 
+  
+  input::placeholder{
+    color: #8E44AD;
+  } 
+  
+  input[type="submit"] {
+    width: 50%;
+    height: 30px;
+    margin: 1em auto;
+    font-size: 1.1rem;
+    display: block;
+  }
+  
+  .inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+  }
+  
+  .inline{
+    display: inline; 
+  }
+  
+  legend {
+    margin: 20 0;
+    margin-bottom: 10;
+  }
